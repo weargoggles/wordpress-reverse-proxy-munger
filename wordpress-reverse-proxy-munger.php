@@ -1,3 +1,14 @@
+<?php
+/*
+Plugin Name: Reverse Proxy Munger
+Plugin URI:  http://github.com/weargoggles/wordpress-reverse-proxy-munger
+Description: Rewrite URLs in outgoing pages based on incoming headers
+Version:     1.0
+Author:      Pete Wildsmith
+Author URI:  http://github.com/weargoggles
+License:     MIT
+License URI: https://opensource.org/licenses/MIT
+*/
 defined( 'ABSPATH' ) or die( 'this is a plugin' );
 
 function rp_is_login_page() {
